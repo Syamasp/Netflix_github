@@ -1,0 +1,33 @@
+.nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    height: 30px;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+background-color: black;
+z-index: 1;
+transition-timing-function: ease-in;
+transition: all 0.5s;
+
+}
+
+.navlogo{
+    position: fixed;
+    top:10px;
+    left:0;
+    width:100px;
+    height: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+    object-fit: contain;
+
+}
+.Avatar{
+    position: fixed;
+    right: 20px;
+    width:30px;
+    cursor: pointer;
+   
+}
